@@ -223,7 +223,7 @@ public class Unid2Q1StAX {
         ArrayList<String> estilos = new ArrayList<>();
           boolean tbody = false;
           boolean th = false;
-          int a = 0;
+        //  int a = 0;
           
             while(leitor.hasNext()){
                 int tipo = leitor.next();
