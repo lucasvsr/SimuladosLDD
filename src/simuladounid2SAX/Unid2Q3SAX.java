@@ -26,7 +26,7 @@ public class Unid2Q3SAX extends DefaultHandler{
     public ArrayList<String> titulos = new ArrayList<>();
     String atual;
     
-   /* private ArrayList<String> pegarTitulosComBlue() {
+    public ArrayList<String> pegarTitulosComBlue() {
     
         ArrayList<String> blue = new ArrayList<>();
         
@@ -38,9 +38,9 @@ public class Unid2Q3SAX extends DefaultHandler{
             
             return blue;
         
-    }*/
+    }
     
-public ArrayList<String> fazerParsing(String caminho) throws MalformedURLException, IOException {
+    public ArrayList<String> fazerParsing(String caminho) throws MalformedURLException, IOException {
         SAXParserFactory fab = SAXParserFactory.newInstance();
         SAXParser parser;
         
